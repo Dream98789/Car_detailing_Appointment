@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>預約汽車美容</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>預約汽車美容服務</h2>
+    <button id="show-form-btn" class="submit-btn" style="width:100%;font-size:1.3rem;">我要預約</button>
+    <div id="notionform-container" style="display:none;">
+      <iframe style="border:none;width:100%;" id="bcwfml" src="https://noteforms.com/forms/bcwfml"></iframe>
+    </div>
+    <script type="text/javascript" onload="initEmbed('bcwfml')" src="https://noteforms.com/widgets/iframe.min.js"></script>
+  </div>
+  <script src="booking.js"></script>
+</body>
+</html>
